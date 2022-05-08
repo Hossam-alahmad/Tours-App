@@ -1,0 +1,29 @@
+.tour {
+    border-radius: 5px;
+    box-shadow: 0 2px 3px #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+.tour .tour-image {
+    margin-bottom: 20px;
+}
+.tour .tour-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.tour .tour-content .tour-info {
+    width: 90%;
+    margin: 20px auto;
+}
+.tour .tour-content .tour-info button {
+    background-color: transparent;
+    border: none;
+    color: rgb(10, 10, 134);
+    cursor: pointer;
+}
+.tour .tour-content .tour-price {
+    background-color: rgb(10, 10, 134);
+    cursor: pointer;
+}
